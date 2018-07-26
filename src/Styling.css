@@ -1,0 +1,30 @@
+body {
+  background-color: #3a4b68; }
+
+.container {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  height: 100%;
+  width: 100%;
+  background-color: #3a4b68;
+  justify-content: center;
+  font-family: "Anonymous Pro"; }
+
+.timer-text {
+  grid-row: 2;
+  color: white;
+  font-size: 100px;
+  padding: 50px; }
+
+.split-text {
+  grid-row: 3;
+  color: white;
+  font-size: 40px;
+  text-align: center; }
+
+.split-message {
+  text-decoration: underline;
+  padding: 5px; }
+
+.highlight {
+  background-color: red; }

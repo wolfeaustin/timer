@@ -1,0 +1,40 @@
+$backgroundColor: #3a4b68;
+$highlightColor: red;
+$textColor: white;
+$font: "Anonymous Pro";
+
+body {
+  background-color: $backgroundColor;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 20% 80%;
+  height: 100%;
+  width: 100%;
+  background-color: $backgroundColor;
+  justify-content: center;
+  font-family: $font;
+}
+
+.timer-text {
+  grid-row: 2;
+  color: $textColor;
+  font-size: 100px;
+  padding: 50px;
+}
+.split-text {
+  grid-row: 3;
+  color: $textColor;
+  font-size: 40px;
+  text-align: center;
+}
+
+.split-message {
+  text-decoration: underline;
+  padding: 5px;
+}
+
+.highlight {
+  background-color: $highlightColor;
+}
